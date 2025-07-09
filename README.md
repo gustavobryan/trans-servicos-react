@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Trans Serviços 🌈
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site oficial do projeto **Trans Serviços**, desenvolvido com foco em acessibilidade, inclusão e suporte à comunidade trans. Este projeto visa conectar pessoas a oportunidades de serviços, capacitação e informação de forma intuitiva e humanizada.
 
-## Available Scripts
+## 🖥️ Tecnologias Utilizadas
 
-In the project directory, you can run:
+- [React](https://reactjs.org/) – biblioteca principal para construção da interface
+- [React Router DOM](https://reactrouter.com/) – navegação entre páginas
+- [Styled Components / TailwindCSS] – estilização dos componentes
+- [Vite](https://vitejs.dev/) ou [Create React App] – para bootstrapping do projeto (dependendo do seu setup)
+- [React Icons](https://react-icons.github.io/react-icons/) – ícones diversos
+- [EmailJS ou Formspree] – para envio de formulários de contato (opcional)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Página inicial com identidade visual baseada na bandeira trans
+- Menu de navegação intuitivo
+- Sessão de serviços e apoio
+- Blog com publicações relevantes
+- Página de contato com formulário funcional
+- Layout responsivo para todos os dispositivos
+- Design acessível e com contraste adequado
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Estrutura de Pastas
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── assets/           # Imagens e ícones
+├── components/       # Componentes reutilizáveis (Navbar, Footer, Cards etc)
+├── pages/            # Páginas principais (Home, Blog, Contato etc)
+├── styles/           # Estilos globais ou variáveis de tema
+├── App.jsx           # Componente raiz
+└── main.jsx          # Entrada principal do React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔧 Instalação e Uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/trans-servicos.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse o diretório
+cd trans-servicos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Instale as dependências
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Inicie o servidor local
+npm run dev
+````
 
-## Learn More
+> O site estará disponível em: `http://localhost:5173` (ou porta configurada)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📦 Build para Produção
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📌 Melhorias Futuras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Área de login/cadastro para prestadores e contratantes
+* Painel administrativo para gerenciar postagens e serviços
+* Integração com APIs externas de vagas e inclusão social
+* Modo escuro e acessibilidade WAI-ARIA
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contribuindo
 
-### Advanced Configuration
+Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, correções ou melhorias.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Fork este repositório
+2. Crie uma branch: `git checkout -b minha-feature`
+3. Faça suas alterações e commit: `git commit -m 'feat: minha nova feature'`
+4. Push: `git push origin minha-feature`
+5. Abra um Pull Request
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 Licença
 
-### `npm run build` fails to minify
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## ✨ Agradecimentos
+
+Desenvolvido com ❤️ por [Gustavo Bryan](https://github.com/gbryan) e colaboradores do projeto **Trans Serviços**.
+
+
